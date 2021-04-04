@@ -17,7 +17,7 @@
     "webpack"
   ],
   "author": "dmckinstry",
-  "license": "ISC",
+  "license": "GPL",
   "dependencies": {
     "@reduxjs/toolkit": "^1.5.0",
     "axios": "^0.21.1",
