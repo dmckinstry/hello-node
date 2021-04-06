@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "repository": {
+    "url": "https://github.com/dmckinstry/hello-node"
+  },
   "scripts": {
     "start": "node ./src/server/app.js",
     "start:dev": "nodemon --exec npm run build:dev",
@@ -23,6 +26,9 @@
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
     "express": "^4.16.4",
+    "jquery": "^1.9.1",
+    "jshint": "^2.12.0",
+    "popper.js": "^1.16.1",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.3",
     "react-dom": "^17.0.1",
@@ -57,7 +63,7 @@
     "nodemon": "^2.0.7",
     "style-loader": "^2.0.0",
     "url-loader": "^4.1.1",
-    "webpack": "^5.19.0",
+    "webpack": "^4.46.0",
     "webpack-cli": "^4.4.0"
   },
   "jest": {
